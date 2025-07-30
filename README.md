@@ -1,8 +1,8 @@
-🎧 Projeto App Podcast
+#🎧 Projeto App Podcast
 Aplicativo mobile de podcasts desenvolvido em React Native com Expo.
 Permite ao usuário navegar entre episódios, reproduzir áudio e gerenciar playlists de forma simples e rápida.
 
-🚀 Tecnologias Utilizadas
+##🚀 Tecnologias Utilizadas
 React Native
 
 Expo
@@ -11,7 +11,7 @@ React Navigation
 
 Expo AV (para reprodução de áudio)
 
-📦 Pré-requisitos
+##📦 Pré-requisitos
 Antes de começar, certifique-se de ter instalado:
 
 Node.js >= 18.x
@@ -26,7 +26,7 @@ Editar
 npm install -g expo-cli
 Emulador Android/iOS ou o app Expo Go no celular.
 
-⚙️ Instalação
+##⚙️ Instalação
 Clone o repositório:
 
 bash
@@ -46,7 +46,7 @@ bash
 Copiar
 Editar
 yarn install
-▶️ Execução
+##▶️ Execução
 Inicie o servidor de desenvolvimento:
 
 bash
@@ -63,17 +63,17 @@ Escaneie o QR Code com o app Expo Go para rodar no celular.
 
 Ou pressione a para abrir no emulador Android, i para iOS (MacOS).
 
-🧪 Testes
+##🧪 Testes
 Em breve serão adicionados testes automatizados com Jest.
 
-🛠️ Scripts Disponíveis
+##🛠️ Scripts Disponíveis
 npm start → Inicia o servidor Expo
 
 npm run build → Gera build de produção (configurar posteriormente)
 
 npm run lint → Verifica o código com ESLint
 
-📁 Estrutura de Pastas
+##📁 Estrutura de Pastas
 bash
 Copiar
 Editar
@@ -83,12 +83,12 @@ src/
  ├── assets/        # Imagens, ícones, fontes
  ├── services/      # (Sugestão) APIs e serviços externos
  └── utils/         # Funções utilitárias
-🔐 Segurança
+##🔐 Segurança
 Rodar npm audit periodicamente para checar vulnerabilidades.
 
 Evitar armazenar chaves de API diretamente no código (usar .env).
 
-🚧 Melhorias Futuras
+##🚧 Melhorias Futuras
 Adicionar testes automatizados
 
 Cache de imagens e áudios
