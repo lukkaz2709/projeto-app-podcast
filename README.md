@@ -3,11 +3,8 @@ Aplicativo mobile de podcasts desenvolvido em React Native com Expo.
 Permite ao usuário navegar entre episódios, reproduzir áudio e gerenciar playlists de forma simples e rápida.
 
 ## 🚀 Tecnologias Utilizadas
-React Native
-
-Expo
-
-React Navigation
+Node.js
+Typescript
 
 Expo AV (para reprodução de áudio)
 
