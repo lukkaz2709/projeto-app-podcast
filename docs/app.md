@@ -19,7 +19,7 @@ podcasts feito com vídeos
 listar os episódios podcasts em sessões de categorias
 
 ### Como vou implementar:
-GET: retorna lista de episódios
+
 
 response:
 
@@ -44,3 +44,5 @@ response:
         categories: ["esporte", "corrida"]
     }
 ]
+
+GET: retorna lista de episódios baseados em um parâmetro enviado pelo cliente do nome do podcast
