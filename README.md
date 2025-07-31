@@ -1,19 +1,17 @@
-# 🎧 Projeto App Podcast
-Aplicativo mobile de podcasts desenvolvido em React Native com Expo.
-Permite ao usuário navegar entre episódios, reproduzir áudio e gerenciar playlists de forma simples e rápida.
+# 🎧 Podcast App Project
+Mobile podcast application developed with React Native and Expo.
+It allows users to browse episodes, play audio, and manage playlists easily and efficiently.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 Node.js
 Typescript
 
-Expo AV (para reprodução de áudio)
-
-## 📦 Pré-requisitos
-Antes de começar, certifique-se de ter instalado:
+## 📦 Prerequisites
+Before starting, make sure you have installed:
 
 Node.js >= 18.x
 
-npm ou yarn
+npm or yarn
 
 Expo CLI:
 
@@ -21,77 +19,76 @@ bash
 Copiar
 Editar
 npm install -g expo-cli
-Emulador Android/iOS ou o app Expo Go no celular.
+Android/iOS Emulator or Expo Go app installed on your phone.
 
-## ⚙️ Instalação
-Clone o repositório:
+## ⚙️ Installation
+Clone the repository:
 
 bash
 Copiar
 Editar
 git clone https://github.com/lukkaz2709/projeto-app-podcast
 cd projeto-app-podcast
-Instale as dependências:
+Install dependencies:
 
 bash
 Copiar
 Editar
 npm install
-ou
+or
 
 bash
 Copiar
 Editar
 yarn install
-## ▶️ Execução
-Inicie o servidor de desenvolvimento:
+## ▶️ Running the App
+Start the development server:
 
 bash
 Copiar
 Editar
 npm start
-ou
+or
 
 bash
 Copiar
 Editar
 expo start
-Escaneie o QR Code com o app Expo Go para rodar no celular.
 
-Ou pressione a para abrir no emulador Android, i para iOS (MacOS).
 
-## 🧪 Testes
-Em breve serão adicionados testes automatizados com Jest.
+## 🧪 Testing
+Automated tests will be added soon using Jest.
 
-## 🛠️ Scripts Disponíveis
-npm start → Inicia o servidor Expo
+## 🛠️ Available Scripts
+npm start → Starts Expo development server
 
-npm run build → Gera build de produção (configurar posteriormente)
+npm run build → Creates production build (to be configured)
 
-npm run lint → Verifica o código com ESLint
+npm run lint → Runs ESLint to check code style
 
-## 📁 Estrutura de Pastas
+## 📁 Project Structure
 bash
 Copiar
 Editar
 src/
- ├── components/    # Componentes reutilizáveis (botões, player, cards)
- ├── screens/       # Telas principais do app
- ├── assets/        # Imagens, ícones, fontes
- ├── services/      # (Sugestão) APIs e serviços externos
- └── utils/         # Funções utilitárias
-## 🔐 Segurança
-Rodar npm audit periodicamente para checar vulnerabilidades.
+ ├── components/    # Reusable components (buttons, player, cards)
+ ├── screens/       # Main app screens
+ ├── assets/        # Images, icons, fonts
+ ├── services/      # (Suggested) API calls and external services
+ └── utils/         # Utility functions
+## 🔐 Security
+Run npm audit periodically to check for vulnerabilities.
 
-Evitar armazenar chaves de API diretamente no código (usar .env).
+Avoid storing API keys directly in the code (use .env).
 
-## 🚧 Melhorias Futuras
-Adicionar testes automatizados
+## 🚧 Future Improvements
+Add automated tests
 
-Cache de imagens e áudios
+Implement caching for images and audio
 
-Suporte a playlists offline
+Offline playlists support
 
-Configuração de ESLint e Prettier
+ESLint and Prettier configuration
 
-Melhorias de performance e acessibilidade
+Performance and accessibility improvements
+
